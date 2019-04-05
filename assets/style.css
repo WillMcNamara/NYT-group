@@ -2,7 +2,7 @@
     box-sizing: border-box;
   }
 
-  @media screen and (max-width: 600px) {
+  /* @media screen and (max-width: 600px) {
     
     }
     #container {
@@ -64,7 +64,7 @@
     
     
    
-    }
+    } */
     .bd-placeholder-img {
       font-size: 1.125rem;
       text-anchor: middle;
@@ -84,9 +84,7 @@
       padding: 0 15px;
     }
     
-    .footer {
-      background-color: #f5f5f5;
-    }
+    
   
     
     
