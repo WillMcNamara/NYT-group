@@ -11,31 +11,38 @@
 </head>
 
 <body>
-    <div class=jumbotron .bg-navy></div>
     <div class="container">
 
-        <div class="width=100% p-3 mb-2 .bg-navy text-white text-center">
+        <div class="width=100% p-3 mb-2 bg-primary text-white text-center">
             <h1>New York Times Search</h1>
             </nav>
         </div>
-
-        <div id="content">
-            <div id="TimeRemaining">Time Remaining 00:30
+        <form>
+            <div class="form-group">
+                <h2> Search Parameters</h2>
+                <label for="exampleInputSearchTerm">Search Term</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                <small id="emailHelp" class="form-text text-muted">
+                </small>
             </div>
-            <p1>Who was Maverick's WingMan?</p1>
-            <br>
-            <br>
-            <input type="radio" id="Q1A1" name="Q1option" value="Goose">
-            <label for="Q1A1">Goose</label>
+            <div class="form-group">
+                <label for="exampleInputPassword1">Password</label>
+                <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+            </div>
+            <div class="form-check">
+                <input type="checkbox" class="form-check-input" id="exampleCheck1"
+                    placeholder="Number of Records to Retrieve">
 
-            <input type="radio" id="Q1A2" name="Q1option" value="Iceman">
-            <label for="Q1A2">Iceman</label>
+                <label class="form-check-label" for="exampleCheck1">Check me out</label>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
 
 
-            <br>
+        <br>
 
 
-        </div>
+    </div>
     </div>
 
     </div>
